@@ -5,11 +5,18 @@ This small project takes Ethereum as our blockchain platform to make a movie rat
 Setting up Environment:
 
 npm install -g truffle
+
 npm install -g ethereumjs-testrpc
+
 mkdir movieRatingApp //make a project directory
+
 cd movieRatingApp
+
+
 mkdir rating // backend folder
+
 cd rating 
+
 truffle init //initialize a new truffle project 
 
 This will create necessary files and folders to create and deploy smart contracts.
